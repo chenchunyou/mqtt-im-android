@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_message"
+        android:icon="@drawable/selector_icon_message"
+        android:title="@string/title_message" />
+
+    <item
+        android:id="@+id/navigation_contact"
+        android:icon="@drawable/selector_icon_contact"
+        android:title="@string/title_contact" />
+
+    <item
+        android:id="@+id/navigation_plugin"
+        android:icon="@drawable/selector_icon_plugin"
+        android:title="@string/title_plugin" />
+
+</menu>

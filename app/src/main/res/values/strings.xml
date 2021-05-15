@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">MQTTIM</string>
+    <!-- Strings related to login -->
+    <string name="prompt_phone">手机号</string>
+    <string name="prompt_password">密码</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">登录</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed_not_match">账号或密码不正确</string>
+    <string name="login_failed_server_exception">服务器异常</string>
+    <string name="login_failed_net_exception">网络异常</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+
+    <string name="title_message">消息</string>
+    <string name="title_contact">联系人</string>
+    <string name="title_plugin">动态</string>
+
+    <string name="get_contact_list_failed_unknown_error">未知错误</string>
+    <string name="get_contact_list_failed_server_exception">服务器异常</string>
+    <string name="head_image">head image</string>
+
+    <string name="channel_name">my_channel</string>
+    <string name="channel_description">my_channel_description</string>
+</resources>

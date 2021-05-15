@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.scwang.smart.refresh.layout.SmartRefreshLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/contactRefreshLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.main.contact.ContactFragment">
+    <com.scwang.smart.refresh.header.ClassicsHeader
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <!--<androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:overScrollMode="never"
+        android:background="#fff" />-->
+
+
+    <com.uqubang.mqttim.ui.view.CustomExpandableListView
+        android:id="@+id/explistview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:cacheColorHint="#00000000"
+        android:choiceMode="singleChoice"
+        android:fastScrollEnabled="false"
+        android:footerDividersEnabled="true"
+        android:groupIndicator="@null"
+        android:scrollbars="none"
+        android:overScrollMode="never"
+        android:scrollingCache="true"
+        android:divider="@null"
+        android:listSelector="@android:color/transparent"
+        app:collaps_enable="true"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp" >
+    </com.uqubang.mqttim.ui.view.CustomExpandableListView>
+
+    <com.scwang.smart.refresh.footer.ClassicsFooter
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</com.scwang.smart.refresh.layout.SmartRefreshLayout>
